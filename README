@@ -1,0 +1,19 @@
+# cellar
+
+Cellar is an abstraction over key value stores
+
+## Usage
+
+simple at this point:
+
+(def acc (cellar.s3/S3. aws-key aws-secret-key))
+
+(cellar.core/list-containers acc)
+
+## Installation
+
+FIXME: write
+
+## License
+
+Copyright (c) 2010 Kevin Downey and released under an MIT license.
